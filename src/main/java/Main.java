@@ -7,7 +7,7 @@ public class Main{
     int tahmin,i=0,x;
     x=(int)(Math.random() * 100)+1;
     do{
-      System.out.println("Enter a number between 0 and 100);
+      System.out.println("Enter a number between 0 and 100");
       tahmin = scanner.nextInt();
       
       a.game(x,tahmin); 
